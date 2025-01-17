@@ -13,6 +13,8 @@ body {
 
 .navbar {
     background-color: #05386B;
+    position: sticky;
+    top: 0;
 }
 
 .navbar-brand, .nav-link, .bi-list {
@@ -52,6 +54,28 @@ body {
 
 .header-section2 {
     background: url("../img/liesofp2.png") no-repeat center center/cover;
+    background-position: bottom;
+    height: 600px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section3 {
+    background: url("../img/lord1.jpeg") no-repeat center center/cover  ;
+    background-position: bottom;
+    height: 600px;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section4 {
+    background: url("../img/bernd.jpg") no-repeat center center/cover  ;
     background-position: bottom;
     height: 600px;
     text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
@@ -176,18 +200,40 @@ a {
 
   .pin {
     border-radius: 15px;
-    height: 30em;
+    height: 25em;
     border-color: #266276;
     float: inline-start;
-    font-family: "Mountains of Christmas", serif;
   }
 
    .textbox {
     color: black;
     border: #334258 5px;
     border-radius: 5px;
+    font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+    font-size: 12px;
   }
 
+  hr {
+    stroke-width: 5px;
+    border-top: 3px dashed;
+  }
+
+ .flt-right {
+    float: right;
+ }
+
+ .red {
+    background-color: #c4233b;
+ }
+ .red:hover {
+    background-color: #98192c;
+
+ }
+
+ h1 .sale {
+    color: #334258;
+    text-align: center;
+ }
 /* Tablet Media Query *********************/
 @media screen and (min-width: 764px) {
     
@@ -215,4 +261,5 @@ footer {
     background-color: #05386B;
     color: white;
     text-align: center;
+    background: fill;
 }
